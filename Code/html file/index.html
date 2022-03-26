@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Created By Vaishnavi Bhagwat Savant -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App - Task 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+      
+      
+      />
+  </head>
+  <body background="back.jpg">
+
+    <h1 class="initial-text">Welcome!</h1>
+    <h6 class="end-text">Made By - Vaishnavi Savant</h6>
+    
+    <div class="wrapper">
+      <header>My To-do List</header>
+      <div class="inputField">
+        <input type="text" placeholder="write new todo here" />
+        <button><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todoList">
+        <!-- data are comes from local storage -->
+      </ul>
+      <div class="footer">
+        <span>There are <span class="remainingTasks"></span> remaining Tasks</span>
+        <button>Clear All</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
